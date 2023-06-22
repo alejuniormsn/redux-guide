@@ -30,6 +30,7 @@ export default function Cart({ isVisible, setIsVisible }) {
           />
         ))}
         <CartTotal>
+          Total do carrinho:{" "}
           {new Intl.NumberFormat("pt-BR", {
             style: "currency",
             currency: "BRL",
